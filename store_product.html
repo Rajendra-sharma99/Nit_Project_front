@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>NIT JAMSHEDPUR </title>
+    <link rel="stylesheet" href="./index1.css">
+</head>
+
+<body>
+<!-- navar section -->
+
+<nav class="navbar navbar-expand-lg navbar-dark nav_header " style="background-color: #112233;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./images/logo1.png" id="img"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+         
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" >
+              Product
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="./store_product.html">New Purchase</a></li>
+              <li><a class="dropdown-item" href="./store_product.html">Store Product</a></li>
+              <li><a class="dropdown-item" href="./Ap.html">Available Product</a></li>
+              <li><a class="dropdown-item" href="./pr.html">Payment Record</a></li>
+            </ul>
+          </li>
+         
+        </ul>
+        <form class="d-flex">
+            <button class="btn btn-outline-light" type="submit"><a href="./login.html">Login</a></button>|
+          <button class="btn btn-outline-light" type="submit"><a href="./register.html">Register</a></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+ 
+  
+<!-- container -->
+
+<div class="container">
+    <form>
+      <h2>Contact Us</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="first">Product Name</label>
+            <input type="text" class="form-control" placeholder="" id="first">
+          </div>
+        </div>
+        <!--  col-md-6   -->
+  
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="last">Product Name</label>
+            <input type="text" class="form-control" placeholder="" id="last">
+          </div>
+        </div>
+        <!--  col-md-6   -->
+      </div>
+  
+  
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="company">Product Brand</label>
+            <input type="text" class="form-control" placeholder="" id="company">
+          </div>
+  
+  
+        </div>
+        <!--  col-md-6   -->
+  
+        <div class="col-md-6">
+  
+          <div class="form-group">
+            <label for="date">Date of Delivery</label>
+            <input type="date" class="form-control" id="date" placeholder="phone">
+          </div>
+        </div>
+        <!--  col-md-6   -->
+      </div>
+      <!--  row   -->
+  
+  
+      <div class="row">
+        <div class="col-md-6">
+  
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="email">
+          </div>
+        </div>
+        <!--  col-md-6   -->
+  
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="url">Your Website <small>Please include http://</small></label>
+            <input type="url" class="form-control" id="url" placeholder="url">
+          </div>
+  
+        </div>
+        <!--  col-md-6   -->
+      </div>
+      <!--  row   -->
+  
+  
+      <label for="contact-preference">When is the best time of day to reach you?</label>
+      <div class="radio">
+        <label>
+          <input type="radio" name="contact-preference" id="contact-preference" value="am" checked>Morning
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="contact-preference" id="contact-preference" value="pm" checked>Evening
+        </label>
+      </div>
+  
+      <label for="newsletter">Would you like to recieve our email newsletter?</label>
+      <div class="checkbox">
+  
+        <label>
+          <input type="checkbox" value="Sure!" id="newsletter"> Sure!
+        </label>
+      </div>
+  
+  
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

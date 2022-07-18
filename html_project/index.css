@@ -1,0 +1,12 @@
+h1{
+    color:blue;
+    text-align: center;
+}
+.list{
+    background-color: white;
+    height: 100px;
+    width: 200px;
+}
+body {
+    background-color: lightblue;
+  }
